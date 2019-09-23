@@ -35,12 +35,9 @@ end
 def using_uniq(haircuts)
   new_array = haircuts.uniq
 end
-describe "using_uniq" do 
-  it "takes in an argument of an array and uses the uniq method to remove any duplicate items" do
-    haircuts = ["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler", "Bob"]
-    new_array = using_uniq(haircuts)
-    expect(new_array).to eq(["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler"])
-  end
+
+def using_flatten(instruments)
+  flat_array = instruments.flatten
 end
 
 describe "using_flatten" do 
