@@ -29,7 +29,7 @@ def using_concat(my_favorite_things)
 end
 
 def using_insert(list_of_programming_languages, "Python")
-  list_of_programming_languages.insert("Python")
+  new_array = list_of_programming_languages.insert("Python")
 end
 
 def using_uniq(haircuts)
