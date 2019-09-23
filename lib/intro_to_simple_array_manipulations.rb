@@ -12,7 +12,7 @@ end
 
 def pop_with_args(dog_breeds)
   
-  small_dogs= dog_breeds.pop
+  small_dogs = dog_breeds.pop
   
 end
 
@@ -25,7 +25,7 @@ def shift_with_args(ice_cream_brands)
 end
 
 def using_concat(my_favorite_things)
-  my_favorite_things.concat
+  all_my_favs = my_favorite_things.concat
 end
 
 
