@@ -40,14 +40,9 @@ def using_flatten(instruments)
   flat_array = instruments.flatten
 end
 
-describe "using_flatten" do 
-  it "takes in an argument of an array that contains other arrays and uses the flatten method to return an array of strings" do 
-     instruments = ["Saxophone", ["Piano", "Trumpet"], "Violin", "Drums", "Flute"]
-     flat_array = using_flatten(instruments)
-     expect(flat_array).to eq(["Saxophone", "Piano", "Trumpet", "Violin", "Drums", "Flute"])
-  end
+def using_delete(instructors, "Steven")
+  no_offense_steven=instructors.delete
 end
-
 
 describe "using_delete" do 
   it "takes in two arguments, an array and a string, and uses the delete method to remove any items from the array that are equal to that string" do
