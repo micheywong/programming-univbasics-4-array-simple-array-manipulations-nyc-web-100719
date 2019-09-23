@@ -11,8 +11,8 @@ def using_pop(continents)
 end
 
 def pop_with_args(dog_breeds)
-  shiba_inu = dog_breeds.pop
-  chihuahua = dog_breeds.pop
+  
+  small_dogs= dog_breeds.pop
   
 end
 
