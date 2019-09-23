@@ -18,6 +18,8 @@ def pop_with_args(dog_breeds)
   shiba_inu = dog_breeds.pop
   chihuahua = dog_breeds.pop
   
+  small_dogs = chihuahua + shiba_inu
+  
 end
 
 def using_shift(my_favorite_cities)
