@@ -22,8 +22,8 @@ def shift_with_args(ice_cream_brands)
   brands_removed = ice_cream_brands.shift(2)
 end
 
-def using_concat(all_my_favs, my_favorite_things)
-  all_my_favs = my_favorite_things + more_favs
+def using_concat(my_favorite_things, more_favs)
+  all_my_favs = more_favs + my_favorite_things
 end
 
 def using_insert(list_of_programming_languages, another_language)
