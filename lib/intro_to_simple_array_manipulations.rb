@@ -19,3 +19,5 @@ def pop_with_args(dog_breeds)
   chihuahua = dog_breeds.pop
   
 end
+
+def using_shift
