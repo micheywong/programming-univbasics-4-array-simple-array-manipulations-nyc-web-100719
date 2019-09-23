@@ -22,5 +22,5 @@ end
 
 def using_shift(my_favorite_cities)
   my_favorite_cities = ["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"]
-  lagos = my_favorite_cities.shift
+  im_so_over_this_city = my_favorite_cities.shift
 end
